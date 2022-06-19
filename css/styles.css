@@ -50,7 +50,8 @@ button {
   display: grid;
   grid-template-rows: 1fr 1fr;
   font-weight: bold;
-  box-shadow: 0 2px 20px rgb(220, 220, 220, 0.3);
+  box-shadow: 0 5px 3px rgb(220, 220, 220, 0.5);
+  z-index: 1;
 }
 
 .header img {
@@ -140,5 +141,5 @@ button {
 }
 
 .main {
-  /* background-color: grey; */
+  background-color: aliceblue;
 }
