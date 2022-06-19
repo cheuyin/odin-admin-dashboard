@@ -189,9 +189,8 @@ button {
   opacity: 80%;
 }
 
-.main > .cell:last-child {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+.main .announcements {
+  margin-bottom: 20px;
 }
 
 .main .announcements p.label {
@@ -202,9 +201,24 @@ button {
 
 .main .announcements .card {
   background-color: white;
-  height: 200px;
   padding: 20px;
   border-radius: 10px;
   position: relative;
   box-sizing: border-box;
+}
+
+.main .announcements .card > div:not(:last-child) {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(200, 200, 200);
+}
+
+.main .announcements .card p.heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.main .announcements .card p.content {
+  opacity: 80%;
 }
