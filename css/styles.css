@@ -203,8 +203,6 @@ button {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  position: relative;
-  box-sizing: border-box;
 }
 
 .main .announcements .card > div:not(:last-child) {
@@ -221,4 +219,24 @@ button {
 
 .main .announcements .card p.content {
   opacity: 80%;
+}
+
+.main .trending .card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main .trending .user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.main .trending .user:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.main .trending .user img {
+  width: 40px;
 }
