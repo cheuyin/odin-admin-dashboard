@@ -38,12 +38,23 @@ button {
   gap: 50px;
 }
 
+.sidebar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar img {
+  margin-right: 15px;
+}
+
 .sidebar .logo p {
   font-size: 3rem;
 }
 
 .sidebar li {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -240,3 +251,4 @@ button {
 .main .trending .user img {
   width: 40px;
 }
+
